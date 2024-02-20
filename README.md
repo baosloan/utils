@@ -69,7 +69,7 @@ func main() {
 	var s1 = []int{111, 222, 333}
 	var s2 = []int{111, 222, 444}
 	fmt.Println(intutil.Intersect(s1, s2)) //[111 222]
-	//字符串切片翻转(不改变原有切片)
+	//整型切片翻转(不改变原有切片)
 	var s3 = []int{111, 222, 333, 444, 555}
 	var s4 = intutil.Reverse(s3)
 	fmt.Println(s3) //[111 222 333 444 555]
