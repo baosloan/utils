@@ -1,6 +1,13 @@
 # utils
 Go开发工具包
 
+## 安装
+
+```shell
+go get github.com/baosloan/utils
+```
+
+
 
 ## timeutil
 时间工具包
